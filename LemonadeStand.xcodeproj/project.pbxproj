@@ -13,6 +13,9 @@
 		C87AC55A1A4CD65600AAB215 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C87AC5591A4CD65600AAB215 /* Images.xcassets */; };
 		C87AC55D1A4CD65600AAB215 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C87AC55B1A4CD65600AAB215 /* LaunchScreen.xib */; };
 		C87AC5691A4CD65600AAB215 /* LemonadeStandTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87AC5681A4CD65600AAB215 /* LemonadeStandTests.swift */; };
+		C8C7AE7D1A4E0E740013BB5E /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C7AE7C1A4E0E740013BB5E /* Weather.swift */; };
+		C8C7AE7F1A4E0F350013BB5E /* Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C7AE7E1A4E0F350013BB5E /* Factory.swift */; };
+		C8C7AE811A4E65DE0013BB5E /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C7AE801A4E65DE0013BB5E /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		C87AC5621A4CD65600AAB215 /* LemonadeStandTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LemonadeStandTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C87AC5671A4CD65600AAB215 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C87AC5681A4CD65600AAB215 /* LemonadeStandTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LemonadeStandTests.swift; sourceTree = "<group>"; };
+		C8C7AE7C1A4E0E740013BB5E /* Weather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		C8C7AE7E1A4E0F350013BB5E /* Factory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Factory.swift; sourceTree = "<group>"; };
+		C8C7AE801A4E65DE0013BB5E /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +84,9 @@
 			isa = PBXGroup;
 			children = (
 				C87AC5521A4CD65600AAB215 /* AppDelegate.swift */,
+				C8C7AE7C1A4E0E740013BB5E /* Weather.swift */,
+				C8C7AE801A4E65DE0013BB5E /* Person.swift */,
+				C8C7AE7E1A4E0F350013BB5E /* Factory.swift */,
 				C87AC5541A4CD65600AAB215 /* ViewController.swift */,
 				C87AC5561A4CD65600AAB215 /* Main.storyboard */,
 				C87AC5591A4CD65600AAB215 /* Images.xcassets */,
@@ -212,7 +221,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8C7AE811A4E65DE0013BB5E /* Person.swift in Sources */,
+				C8C7AE7F1A4E0F350013BB5E /* Factory.swift in Sources */,
 				C87AC5551A4CD65600AAB215 /* ViewController.swift in Sources */,
+				C8C7AE7D1A4E0E740013BB5E /* Weather.swift in Sources */,
 				C87AC5531A4CD65600AAB215 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -407,6 +419,7 @@
 				C87AC56E1A4CD65600AAB215 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C87AC56F1A4CD65600AAB215 /* Build configuration list for PBXNativeTarget "LemonadeStandTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +428,7 @@
 				C87AC5711A4CD65600AAB215 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
