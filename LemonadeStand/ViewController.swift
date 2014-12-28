@@ -9,7 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    //hiiiiiiiii
     @IBOutlet weak var totalMoneyMade: UILabel!
     
     @IBOutlet weak var totalIceContain: UILabel!
